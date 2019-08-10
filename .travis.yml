@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode10.2
-xcode_project: TravisTest.xcodeproj
-xcode_scheme: TravisTest
+xcode_project: CollectionView.xcodeproj
+xcode_scheme: CollectionView
 xcode_destination:
     platform=iOS Simulator,OS=12.0,name=iPhone 7
