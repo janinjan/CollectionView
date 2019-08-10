@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3FB4DD22FEB0D400DF9220 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FB4DC22FEB0D400DF9220 /* CollectionViewController.swift */; };
+		3D3FB4DF22FEB0E800DF9220 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FB4DE22FEB0E800DF9220 /* CollectionViewCell.swift */; };
+		3D3FB4E122FEB53700DF9220 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FB4E022FEB53700DF9220 /* DetailViewController.swift */; };
 		3DF5E64022FEA71500FD6249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5E63F22FEA71500FD6249 /* AppDelegate.swift */; };
-		3DF5E64222FEA71500FD6249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5E64122FEA71500FD6249 /* ViewController.swift */; };
 		3DF5E64522FEA71500FD6249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5E64322FEA71500FD6249 /* Main.storyboard */; };
 		3DF5E64722FEA71500FD6249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5E64622FEA71500FD6249 /* Assets.xcassets */; };
 		3DF5E64A22FEA71500FD6249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5E64822FEA71500FD6249 /* LaunchScreen.storyboard */; };
@@ -26,9 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3FB4DC22FEB0D400DF9220 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		3D3FB4DE22FEB0E800DF9220 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3D3FB4E022FEB53700DF9220 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3DF5E63C22FEA71500FD6249 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF5E63F22FEA71500FD6249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DF5E64122FEA71500FD6249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DF5E64422FEA71500FD6249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DF5E64622FEA71500FD6249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF5E64922FEA71500FD6249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3FB4D822FEB00400DF9220 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D3FB4D922FEB00F00DF9220 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5E64822FEA71500FD6249 /* LaunchScreen.storyboard */,
+				3DF5E64322FEA71500FD6249 /* Main.storyboard */,
+				3D3FB4DE22FEB0E800DF9220 /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3FB4DA22FEB01400DF9220 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				3D3FB4DC22FEB0D400DF9220 /* CollectionViewController.swift */,
+				3D3FB4E022FEB53700DF9220 /* DetailViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		3D3FB4DB22FEB02400DF9220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5E64622FEA71500FD6249 /* Assets.xcassets */,
+				3DF5E64B22FEA71500FD6249 /* Info.plist */,
+				3DF5E63F22FEA71500FD6249 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3DF5E63322FEA71500FD6249 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +117,10 @@
 		3DF5E63E22FEA71500FD6249 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				3DF5E63F22FEA71500FD6249 /* AppDelegate.swift */,
-				3DF5E64122FEA71500FD6249 /* ViewController.swift */,
-				3DF5E64322FEA71500FD6249 /* Main.storyboard */,
-				3DF5E64622FEA71500FD6249 /* Assets.xcassets */,
-				3DF5E64822FEA71500FD6249 /* LaunchScreen.storyboard */,
-				3DF5E64B22FEA71500FD6249 /* Info.plist */,
+				3D3FB4DB22FEB02400DF9220 /* Supporting Files */,
+				3D3FB4D822FEB00400DF9220 /* Model */,
+				3D3FB4D922FEB00F00DF9220 /* View */,
+				3D3FB4DA22FEB01400DF9220 /* Controler */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -197,8 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF5E64222FEA71500FD6249 /* ViewController.swift in Sources */,
+				3D3FB4DD22FEB0D400DF9220 /* CollectionViewController.swift in Sources */,
 				3DF5E64022FEA71500FD6249 /* AppDelegate.swift in Sources */,
+				3D3FB4DF22FEB0E800DF9220 /* CollectionViewCell.swift in Sources */,
+				3D3FB4E122FEB53700DF9220 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6FCPFN549;
-				INFOPLIST_FILE = CollectionView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6FCPFN549;
-				INFOPLIST_FILE = CollectionView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
